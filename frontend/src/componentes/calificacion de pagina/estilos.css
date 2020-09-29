@@ -1,0 +1,12 @@
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imagen{
+    width: 200px;
+    margin: auto 10px;
+   
+}
+

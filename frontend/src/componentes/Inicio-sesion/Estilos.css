@@ -1,0 +1,36 @@
+.Imagenes {
+    width: 250px;
+}
+
+.correo{
+    padding: 5px;
+    display: block;
+    width: 90%;
+    margin-bottom: 5px;
+    border-radius: 7px;
+}
+ .inicio{
+     width: 300px;
+     padding: 15px;
+     border: 2px solid #000000;
+     display: flex ;
+     justify-content: center;
+     flex-wrap: wrap;
+
+ }
+
+ .molk{
+     display: flex;
+     justify-content: center;
+ }
+
+ .face{
+     display: block;
+     width: 99%;
+     margin-top: 10px;
+ }
+.Icono{
+    padding: 5px;
+    background-color: royalblue;
+}
+

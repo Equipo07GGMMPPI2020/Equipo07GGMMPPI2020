@@ -1,0 +1,27 @@
+.imagen{
+    width: 200px;
+    margin: auto 10px;
+   
+}
+
+.img{
+  width: 50px;
+  margin-left: 5px;
+
+
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

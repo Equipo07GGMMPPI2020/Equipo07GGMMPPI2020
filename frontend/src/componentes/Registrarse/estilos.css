@@ -1,0 +1,36 @@
+.Imagenes {
+    width: 250px;
+}
+
+.registrate{
+    width: 440px;
+    padding: 10px;
+
+
+
+}
+.class{
+    display: block;
+    padding: 5px;
+    width: 100%;
+    
+}
+
+.regis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.inform label{
+    font-weight: bold;
+    
+}
+

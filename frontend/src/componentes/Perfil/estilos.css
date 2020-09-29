@@ -1,0 +1,21 @@
+
+.Todo{
+    border-bottom: 1px solid #000;
+}
+.otro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo{
+    width: 200px;
+}
+.boton{
+    width: 100px;
+}
+.Info h3,p{
+margin: 0;
+}
+.Info{
+    margin: 10px;
+}

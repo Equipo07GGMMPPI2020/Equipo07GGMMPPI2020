@@ -1,0 +1,54 @@
+.p{
+    width: 200px;
+    border: 1px solid #000000;
+    padding: 10px;
+    height: 65px;
+
+}
+.mj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.di h4{
+    margin-bottom: 0px;
+    height: 0px;
+    
+}
+
+.di{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    width: 250px;
+    align-items: center;
+    
+
+}
+
+.todo{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    flex-wrap: wrap;
+}
+
+.cu{
+    max-width:100%;
+    min-width:100%;
+    max-height:200px;
+    min-height:200px;
+}
+
+.imagen{
+    width: 200px;
+    margin: auto 10px;
+   
+}
+
+
+

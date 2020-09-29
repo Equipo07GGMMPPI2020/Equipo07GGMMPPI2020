@@ -1,0 +1,53 @@
+.Imagenes {
+    width: 50px;
+    margin-left: 10px;
+
+}
+
+.Inicial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.did{
+    border: 1px solid #000000;
+    list-style: none;
+    padding: 8px;
+    width: 500px;
+    margin: 5px;
+    
+
+}
+
+.did a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.preg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.did:hover{
+    background: rgba(0, 0, 0, .1);
+    cursor: pointer;
+
+}
+.imagen{
+    width: 200px;
+    margin: auto 10px;
+    
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
