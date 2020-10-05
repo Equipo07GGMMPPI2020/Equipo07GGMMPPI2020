@@ -1,10 +1,10 @@
 .imagen{
     width: 200px;
     margin: auto 10px;
-   
+
 }
 
-.img{
+.ImagenQue{
   width: 50px;
   margin-left: 5px;
 
@@ -19,9 +19,9 @@
 
 }
 
-.boton{
+.botonPregunta{
+  width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'
 import "./stilos.css"
 import LOGOS from "../imagen/LOGOS (2).jpg";
 import Logo from "../imagen/Logo.jpg";
@@ -14,7 +15,7 @@ class Continuacion extends Component {
 
                 <div>
                     <p>
-                       
+
                     Algunos niños presentan signos del trastorno del espectro autista en la primera infancia, como menor contacto visual, falta de respuesta cuando los llaman por su nombre o indiferencia ante las personas responsables del cuidado. Otros niños pueden desarrollarse normalmente durante los primeros meses o años de vida, pero luego repentinamente se vuelven introvertidos o agresivos o pierden habilidades del lenguaje que habían adquirido. En general, los signos se observan a los 2 años.
                       </p>
                      <p>
@@ -27,7 +28,7 @@ class Continuacion extends Component {
                         <p>
                         Debido a la combinación única de síntomas que presenta cada niño, a veces, puede ser difícil determinar la gravedad. En general, se basa en el nivel de deterioro y en cómo afecta la capacidad de desenvolverse.
                         </p>
-                    
+
                         A continuación, se presentan algunos signos frecuentes que tienen las personas con trastornos del espectro autista.
                          <h3>Comunicación e interacción social</h3>
                          Un niño o un adulto con trastorno del espectro autista puede tener problemas con la interacción social y las habilidades de comunicación, incluso presentar cualquiera de los siguientes signos:
@@ -69,19 +70,19 @@ class Continuacion extends Component {
                           Tiene dificultad para reconocer señales no verbales, como la interpretación de las expresiones faciales de otras personas, las posturas corporales o el tono de voz
                           </li>
                       </ul>
-                      <p><a href="#">Link</a> Para resolver dudas</p>
-                
-                
+                      <p><Link to="/dudas">Link</Link> Para resolver dudas</p>
+
+
                 </div>
                 <hr />
-                <div className="boton">
-                    <button type="button">
-                        Anterior
-                    </button>
+                <div className="botonSintomas">
+                <Link to="/informacion"><button type = "button" className="boton">
+                    Anterior
+                    </button></Link>
                     <img className="imagen" src={Logo} />
-                    <button type="button">
+                    <Link to="/juegos"><button type="button" className="boton">
                         Siguiente
-                    </button>
+                    </button></Link>
                 </div>
 
             </div>

@@ -15,21 +15,25 @@
     border: 1px solid #000000;
     list-style: none;
     padding: 8px;
-    width: 500px;
+    width: 50%;
     margin: 5px;
-    
-
 }
 
-.did a{
+.did p{
     text-decoration: none;
     color: #000000;
 }
-
+.infor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 550px;
+}
 .preg{
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .did:hover{
@@ -40,14 +44,15 @@
 .imagen{
     width: 200px;
     margin: auto 10px;
-    
 }
-
-.img{
+.botonesAviso{
     display: flex;
     align-items: center;
     justify-content: center;
-
-    
-
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .did{
+    width: 100%;
+  }
 }

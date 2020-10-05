@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'
 import "./style.css"
 import LOGOS from "../imagen/LOGOS (3).jpg";
 import Logo from "../imagen/Logo.jpg";
@@ -14,7 +15,7 @@ class Otrapregunta extends Component {
 
                 <div>
                     <p>
-                       
+
                     El autismo impacta al desarrollo normal del cerebro en áreas relacionadas con la interacción social y las habilidades comunicativas. Los niños y adultos con autismo típicamente tienen deficiencias en la comunicación verbal y no verbal, en las interacciones sociales y en las actividades de ocio y juego. Este trastorno les dificulta comunicarse con otros y convertirse en miembros independientes de la comunidad. Pueden exhibir movimientos repetitivos del cuerpo (sacudimiento de la mano o balanceo del cuerpo), respuestas inusuales a la gente o apego a objetos y resistencia a cualquier cambio de rutinas. En algunos casos, muestran agresividad y/o un comportamiento con tendencias a hacerse daño a sí mismos.
                       </p>
                     <h3>
@@ -26,14 +27,14 @@ class Otrapregunta extends Component {
                     </p>
                 </div>
                 <hr />
-                <div className="boton">
-                    <button type="button">
-                        Anterior
-                    </button>
+                <div className="botonDesarollo">
+                <Link to="/informacion"><button type = "button" className="boton">
+                    Anterior
+                    </button></Link>
                     <img className="imagen" src={Logo} />
-                    <button type="button">
+                    <Link to="/juegos"><button type="button" className="boton">
                         Siguiente
-                    </button>
+                    </button></Link>
                 </div>
 
             </div>

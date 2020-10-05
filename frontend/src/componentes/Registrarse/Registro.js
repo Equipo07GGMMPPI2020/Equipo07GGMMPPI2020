@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Logo from "../imagen/Logo.jpg"
 import "./estilos.css"
+import { Link } from 'react-router-dom'
 
 class Registro extends Component {
     render() {
@@ -44,6 +45,16 @@ class Registro extends Component {
                         </label>
                         <input className="Apellido class" type="text"/>  
                     </form>
+                </div>
+                <div className="botones">
+                    <Link to="/iniciar seccion"><button type = "button" className="boton">
+                        Anterior
+                        </button></Link>
+                    <img className="imagen" src={Logo}/>
+
+                    <Link to="/Perfil"><button type="button" className="boton">
+                        Siguiente
+                    </button></Link>
                 </div>
             </div>
          </div>

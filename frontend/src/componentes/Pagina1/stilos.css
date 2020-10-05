@@ -1,7 +1,7 @@
 .imagen{
     width: 200px;
     margin: auto 10px;
-   
+
 }
 
 .img{
@@ -19,9 +19,10 @@
 
 }
 
-.boton{
+.botonSintomas{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }

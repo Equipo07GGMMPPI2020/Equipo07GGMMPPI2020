@@ -1,11 +1,18 @@
-.boton{
+.botonJuegos{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+}
+.contenedorJuegos{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .imagen{
     width: 200px;
     margin: auto 10px;
-   
+}
+.todoContenedor{
+  text-align: center;
 }

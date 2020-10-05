@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { Link } from 'react-router-dom'
 import LOGOS from "../imagen/LOGOS.jpg"
 import "./estilos.css"
 import Logo from "../imagen/Logo.jpg";
@@ -13,30 +14,30 @@ class Inform extends Component {
                 </div>
                 <hr/>
                 <div className="preg">
-                    <ul className="infor">
-                        <li className="did">
-                            <a href="#">Que es autismos</a> 
-                        </li>
-                        <li className="did">
-                            <a href="#">Cuales son los signos y sintomas de este transtorno</a>
-                        </li>
-                        <li className="did">
-                            <a href="#">Como el autismo afecta el desarollo mental</a>
-                        </li>
-                    </ul>
-                    
+                    <div className="infor">
+                        <Link to="/que es" className="did">
+                            <p>Que es autismos</p>
+                        </Link>
+                        <Link to="/sintomas" className="did">
+                            <p>Cuales son los signos y sintomas de este transtorno</p>
+                        </Link>
+                        <Link to="/desarrollo" className="did">
+                            <p>Como el autismo afecta el desarollo mental</p>
+                        </Link>
+                    </div>
+
                 </div>
                 <hr/>
-                <div className="img">
-                <button type = "button">
+                <div className="botonesAviso">
+                    <Link to="/aviso"><button type = "button" className="boton">
                         Anterior
-                    </button>
+                        </button></Link>
                     <img className="imagen" src={Logo}/>
-                    <button type = "button">
+                    <Link to="/juegos"><button type="button" className="boton">
                         Siguiente
-                    </button>
+                    </button></Link>
                 </div>
-             
+
             </div>
 
         );

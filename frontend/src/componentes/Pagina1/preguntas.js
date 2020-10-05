@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import "./estilos.css"
 import LOGOS from "../imagen/LOGOS (1).jpg";
 import Logo from "../imagen/Logo.jpg";
@@ -9,12 +10,12 @@ class Preguntas extends Component {
             <div>
                 <div className="titulo">
                     <h3>QUE ES AUTISMO</h3>
-                    <img className="img" src={LOGOS} />
+                    <img className="ImagenQue" src={LOGOS} />
                 </div>
 
                 <div>
                     <p>
-                       
+
                       El trastorno del espectro autista es una enfermedad relacionada con el desarrollo del cerebro que afecta la manera en la que una persona percibe y socializa con otras personas, lo que causa problemas en la interacción social y la comunicación. El trastorno también comprende patrones de conducta restringidos y repetitivos. El término «espectro» en el trastorno del espectro autista se refiere a un amplio abanico de síntomas y gravedad.
                       </p>
                      <p>
@@ -29,14 +30,14 @@ class Preguntas extends Component {
                          </p>
                 </div>
                 <hr />
-                <div className="boton">
-                    <button type="button">
-                        Anterior
-                    </button>
+                <div className="botonPregunta">
+                <Link to="/informacion"><button type = "button" className="boton">
+                    Anterior
+                    </button></Link>
                     <img className="imagen" src={Logo} />
-                    <button type="button">
+                    <Link to="/juegos"><button type="button" className="boton">
                         Siguiente
-                    </button>
+                    </button></Link>
                 </div>
 
             </div>

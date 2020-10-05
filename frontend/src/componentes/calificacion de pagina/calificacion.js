@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'
 import "./estilos.css"
 import Logo from "../imagen/Logo.jpg";
 import Bueno from "../imagen/Logoos (4).jpg";
@@ -8,44 +9,41 @@ import LOGOS from "../imagen/LOGOS (7).jpg";
 
 class Calificacion extends Component {
     render() {
-        return ( 
-            <div>
-                <div>
-                <p>
-                    ¿Como te parecio la aplicacion?
-                    <img className="imagen" src={Bueno}/>
-                    <img className="imagen" src={Okey}/>
-                    <img className="imagen" src={Hola}/>
+        return (
+            <div className="todoElContenedor">
+              <div className="contenedorCalificativa">
+                <div className="centrarContenido">
+                  <div className="media">
+                    <p>¿Como te parecio la aplicacion?</p>
+                    <img className="imagenCalificada" src={Bueno}/>
+                    <img className="imagenCalificada" src={Okey}/>
+                    <img className="imagenCalificada" src={Hola}/>
+                  </div>
+                  <div className="media">
+                    <p>¿Te ayudo a resolver dudas?</p>
+                    <img className="imagenCalificada" src={Bueno}/>
+                    <img className="imagenCalificada" src={Okey}/>
+                    <img className="imagenCalificada" src={Hola}/>
+                   </div>
+                  <div>
+                    <p>calificanos</p>
+                    <img className="imagen" src={LOGOS}/>
+                  </div>
+                </div>
+                <hr/>
+                <div className="botonCalificativo">
                 
-                   
-                </p>
-                </div>
-<p>
-    ¿Te ayudo a resolver dudas?
-    <img className="imagen" src={Bueno}/>
-    <img className="imagen" src={Okey}/>
-    <img className="imagen" src={Hola}/>
-</p>
-                <div>
-            <p>
-                calificanos
-                <img className="imagen" src={LOGOS}/>
-            </p>
-                </div>
-
-                <div>
-
-                </div>
-<hr/>
-                <div className="boton">
-                <button type = "button">
+                    <Link to="/Juegos"><button type = "button" className="boton">
                         Anterior
-                    </button>
+                        </button></Link>
                     <img className="imagen" src={Logo}/>
 
+                    <Link to="/iniciar seccion"><button type="button" className="boton">
+                        Cerrar
+                    </button></Link>
                 </div>
+              </div>
 
-                
             </div>
 
         );

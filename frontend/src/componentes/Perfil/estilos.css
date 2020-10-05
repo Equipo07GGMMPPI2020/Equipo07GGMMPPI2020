@@ -1,17 +1,24 @@
-
+.body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .Todo{
-    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 200px;
+    text-align: center;
 }
 .otro{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 .logo{
     width: 200px;
-}
-.boton{
-    width: 100px;
+    margin-bottom: 0;
 }
 .Info h3,p{
 margin: 0;

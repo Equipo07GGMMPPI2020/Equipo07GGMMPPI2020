@@ -3,9 +3,11 @@
 }
 
 .boton{
-    padding: 5px;
-    width: 200px;
-
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 7px;
+  background: crimson;
+  width: 115px;
 }
 
 .text{
@@ -16,13 +18,17 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-.buton{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
+.contenedorImgBoton{
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .brhr{
     margin-bottom: 20px;
 
+}
+@media screen and (max-width: 800px) {
+  .text{
+    margin:0;
+  }
 }

@@ -1,12 +1,30 @@
-.boton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.todoElContenedor{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.imagen{
-    width: 200px;
+.contenedorCalificativa{
+  width: 25%;
+}
+.centrarContenido{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.imagenCalificada{
+    width: 30px;
     margin: auto 10px;
-   
+
 }
 
+.botonCalificativo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width:800px){
+  .contenedorCalificativa{
+    width: 100%;
+  }
+}

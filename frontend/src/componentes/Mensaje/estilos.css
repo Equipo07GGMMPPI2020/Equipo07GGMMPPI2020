@@ -1,54 +1,59 @@
-.p{
+.parrafo{
     width: 200px;
     border: 1px solid #000000;
     padding: 10px;
-    height: 65px;
+    text-align: center;
 
 }
 .mj{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
+}
+.ContenedorMensaje{
+  width: 100%;
+}
+.enviado h4{
+  margin-bottom: 0;
 }
 
-.di h4{
-    margin-bottom: 0px;
-    height: 0px;
-    
-}
-
-.di{
+.enviado{
     display: flex;
     justify-content: flex-start;
     flex-wrap:wrap;
     width: 250px;
     align-items: center;
-    
-
 }
 
-.todo{
-    width: 300px;
+.contenedortodo{
+    width: 250px;
     display: flex;
     justify-content: center;
     margin: 5px auto;
     flex-wrap: wrap;
 }
 
-.cu{
-    max-width:100%;
-    min-width:100%;
-    max-height:200px;
-    min-height:200px;
+.cuadroDeTexto{
+    max-width:250px;;
+    min-width:250px;
+    max-height:170px;
+    min-height:170px;
 }
 
 .imagen{
     width: 200px;
     margin: auto 10px;
-   
 }
-
-
-
+.botonmensaje{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+form h4{
+  margin-bottom: 0;
+}
